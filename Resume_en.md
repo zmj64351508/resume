@@ -1,6 +1,6 @@
 #Zhou Mingjun 
 
-* Email: <mylove_cat@126.com>
+* Email: mylove_cat@126.com
 * Phone: 13636570382 
 
 ## Education
