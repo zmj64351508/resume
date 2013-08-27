@@ -4,11 +4,11 @@
 * Phone: 13636570382 
 
 ## Education
-### Electronic and Communication Engineering, Master
+### Electronic and Telecommunication Engineering, Master
 Fall 2012 - July 2014  
 Donghua University, Shanghai, China
 
-### Communication Engineering, Bachelor
+### Telecommunication Engineering, Bachelor
 Fall 2008 - July 2012  
 Donghua University, Shanghai, China
 
