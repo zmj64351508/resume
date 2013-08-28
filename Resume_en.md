@@ -29,7 +29,7 @@ The project is a protocol simulation system simulates a tidy protocol similar wi
 
 * Design data structures to make concurrent access in a single thread come true, using "sock" structure to identify connection and linked buffer to store comming messages.
 
-* Trace the protocol message in application layer and write it into a specific file by IMSI which is the identification of a customer.
+* Trace the protocol message in application layer and write it into a specific file according to IMSI which is the identification of a customer.
 
 ### ARMUE -- An Emulator for ARM CPUs
 
@@ -41,17 +41,50 @@ ARMUE simulates the instructions, memory, interrupts, peripherals of an ARM base
 
 * Design a common peripheral layer which simulates the real peripherals like I2C, SPI etc. The layer also supplies a set of interfaces compatible with the libraries of STM32 and NXP LPC CPUs.
 
+### Motion Recognition System
 
+This project aims to distinguish the moving objects from the background which is almost motionless.
+
+* Design an improved algorithm based on frame differ method, which promotes the accuracy and speed.
+
+* Work completely under Linux, using `VIM` as editor and compiler tools like `gnumake` and `gcc`.
+
+* Deploy the program to the embeded platform which is called “leanXcam”.
+
+* Make a cross complier toolchain using `crosstools-ng`. 
+
+## Internship
+
+### MCU intern in NXP Semiconductors
+
+* 2011/10 - 2012/5 and 2013/5 - 2013/9
+
+* Design shecmatic and PCB for demo boards, using PADS and Protel.
+
+* Software development such as I2C, SPI, graphic LCD, PWM etc. for Cortex-M0 MCUs, using C under ARM MDK suit.
+
+### Software Developer in a venture team
+
+* 2012/12 - 2013/4 
+
+* Implement a DTMF decoder on MTK platform using C.
+
+* Cut code from Android Audio subsystem to find a way to directly visit the audio hardware.
 
 ## Awards
 * 08/2013 **Rematch Honorable Mention** , ZTE Program Contest, Shanghai
+
 * 09/2011 **Third Price** , National Undergraduate Electronic Design Contest, Shanghai contest area
+
 * **Scholarship**: The Outstanding Graduate, Outstanding Academic Performance Scholarship twice, School Outstanding Student Cadre
 
-
-
-
-
-   
-
-
+## Book list
+* Linux Device Driver 3rd
+* Data Structure and Algorithm Analysis in C 2nd
+* Code Complete
+* The Art of Unix Programming
+* Beginning Linux Programming 4th
+* C Traps and Pitfalls
+* Embeded Linux Primer -- A Practical Real-World Approach
+* Linux Kernel Development 3rd
+* C Programming FAQs
