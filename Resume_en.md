@@ -16,14 +16,14 @@ Donghua University, Shanghai, China
 
 * Use C in daily coding.
 * Familiar with common data structures and algorithms.
-* Familiar with Linux dirvier.
+* Familiar with Linux driver.
 * Familiar with ARM architecture.
 
 ## Projects
 
 ### Protocol Simulation System
 
-The project is a protocol simulation system simulates a tidy protocol similar with modern communication system like GSM. Socket plays the role of physical layer of the protocol while there are also a data link layer for reliable connection and an application layer for bussiness logic.
+The project is a protocol simulation system simulates a tidy protocol similar with modern communication system like GSM. Socket plays the role of physical layer of the protocol while there are also a data link layer for reliable connection and an application layer for business logic.
 
 * Implement the whole protocol by designing state machines.
 
@@ -49,9 +49,9 @@ This project aims to distinguish the moving objects from the background which is
 
 * Work completely under Linux, using `VIM` as editor and compiler tools like `gnumake` and `gcc`.
 
-* Deploy the program to the embeded platform which is called “leanXcam”.
+* Deploy the program to the embedded platform which is called “leanXcam”.
 
-* Make a cross complier toolchain using `crosstools-ng`. 
+* Make a cross compiler toolchain using `crosstools-ng`. 
 
 ## Internship
 
@@ -85,6 +85,6 @@ This project aims to distinguish the moving objects from the background which is
 * The Art of Unix Programming
 * Beginning Linux Programming 4th
 * C Traps and Pitfalls
-* Embeded Linux Primer -- A Practical Real-World Approach
+* Embedded Linux Primer -- A Practical Real-World Approach
 * Linux Kernel Development 3rd
 * C Programming FAQs
