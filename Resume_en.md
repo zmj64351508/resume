@@ -1,6 +1,6 @@
 #Zhou Mingjun 
 
-* Email: Arthur.zmj@gmail.com
+* Email: mylove_cat@126.com
 * Phone: 13636570382 
 
 ## Education
@@ -26,7 +26,7 @@ Donghua University, Shanghai, China
 The project is a protocol simulation system simulates a tiny protocol similar with modern communication system like GSM. Socket plays the role of physical layer of the protocol while there are also a data link layer for reliable connection and an application layer for business logic.
 
 * Implement the whole protocol by designing state machines.
-* Design data structures to make concurrent access in a single thread come true, using "sock" structure to identify connection and linked buffer to store comming messages.
+* Design data structures to make concurrent access in a single thread come true, using "sock" structure to identify connection and linked buffer to store coming messages.
 * Trace the protocol message in application layer and write it into a specific file according to IMSI which is the identification of a customer.
 
 ### ARMUE -- An Emulator for ARM CPUs
@@ -44,14 +44,14 @@ This project aims to distinguish the moving objects from the background which is
 * Design an improved algorithm based on frame differ method, which promotes the accuracy and speed.
 * Work completely under Linux, using `VIM` as editor and compiler tools like `gnumake` and `gcc`.
 * Deploy the program to the embedded platform which is called “leanXcam”.
-* Make a cross compiler toolchain using `crosstools-ng`. 
+* Make a cross compiler tool-chain using `crosstools-ng`. 
 
 ## Internship
 
 ### MCU intern in NXP Semiconductors
 
 * 2011/10 - 2012/5 and 2013/5 - 2013/9
-* Design shecmatic and PCB for demo boards, using PADS and Protel.
+* Design schematic and PCB for demo boards, using PADS and Protel.
 * Software development such as I2C, SPI, graphic LCD, PWM etc. for Cortex-M0 MCUs, using C under ARM MDK suit.
 
 ### Software Developer in a venture team
