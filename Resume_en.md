@@ -34,8 +34,9 @@ The project is a protocol simulation system simulates a tiny protocol similar wi
 ARMUE simulates the instructions, memory, interrupts, peripherals of an ARM based CPU.
 
 * Modular design for all the components of the system so that the system can be easy to be modified and extended.
-* Implement the instruction interpretation module for compiled binary file by using a function pointer table and a decode routine.
-* Design a common peripheral layer which simulates the real peripherals like I2C, SPI etc. The layer also supplies a set of interfaces compatible with the libraries of STM32 and NXP LPC CPUs.
+* Implement the instruction translation module for compiled binary file by using binary interpretation and dynamic translation.
+* Support GDB remote debugging using GDB stub inside the emulator.
+* Implement the peripheral emulation using Multi-threading.
 
 ### Motion Recognition System
 
