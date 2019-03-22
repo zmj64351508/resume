@@ -1,30 +1,63 @@
 #Zhou Mingjun 
 
-* Email: mylove_cat@126.com
+* Email: nxpzmj@126.com
 * Phone: 13636570382 
 
 ## Work Experience
-### Software Engineer, ZhaoXin Semiconductors, VIA Group Company
 
-07/2014 - Now
+### Senoir Software Engineer, OPPO
 
-#### Maintenance and support for elite1000 SOC
+04/2017 - Now
 
-* Fix bugs
-    * kernel: kernel panic, RCU stall, dead lock, suspend/resume and other general bugs.
-    * Android: power, network, permission related.
-* U-boot customization such as auto upgrade, partition table, porting drivers, booting on eMMC and NAND.
-* Linux kernel driver development such as remote controller and IR output.
-* Android device support for input devices, network devices, etc.
+#### ELSA
+
+* A mechanism to freeze background APPs using cgroup.
+* Develop a kernel module with the following features:
+	* Speed up querying PIDs by UID.
+	* Notify userspace when the frozen tasks received messages, such as binder and socket.
+	* Reduce the notifications to the userspace by aligning async messages.
+
+#### BinderMonitor
+
+* A mechanisim to monitor binder usage
+* Insert some callbacks in binder driver and develop a kernel module to implement the callbacks with the following features:
+	* Calculate statistics of binder transaction time.
+	* Report system info when binder transaction takes too much time.
+	* Monitor the consumer of each binder threads of the service.
+
+### Software Engineer, Shanghai ZhaoXin Semiconductors
+
+07/2014 - 04/2017
+
+#### bootloader
+
+* Finish the development of the first stage bootloader for 2 generations of SOC products, which is fixed in the ROM of SOC in production stage. All the development includes secure boot using ARM trustzone, fastboot protocal implementation, eMMC driver, etc.
+* Develop mand maintain u-boot, including simplification, configuration, adding new features and speeding up.
+
+#### Linux kernel
+
+* Develop and maintain drivers for the following modules:
+	* eMMC/SD
+	* IR receiver
+	* IR emulator using GPIO
+
+#### SOC software verification on FPGA
+* Bring up SOC on FPGA
+* First stage bootloader
+* eMMC/SD software
+
+#### tools development
+* Develop many tools using C/C++/python
+	* Image signing tool
+	* Private key management tool
+	* Flash tool for mac/SN in mass production
 
 ## Skills
 
-* Use C in kernel development. Can read C++ and Java for Android.
-* Familiar with Linux driver.
+* Use C in kernel development. Can read C++ and Java for Android. Develop tools using python/shell on PC.
+* Familiar with Linux device driver, memory, tasks, etc.
 * Bug fixing skills.
 * Familiar with ARM architecture.
-* Simple shell and python script.
-* Github: <https://github.com/zmj64351508>
 
 ## Education
 ### Electronic and Telecommunication Engineering, Master
@@ -34,19 +67,3 @@ Donghua University, Shanghai, China
 ### Telecommunication Engineering, Bachelor
 Fall 2008 - July 2012  
 Donghua University, Shanghai, China
-
-## Awards
-* 08/2013 **Rematch Honorable Mention** , ZTE Program Contest, Shanghai
-* 09/2011 **Third Price** , National Undergraduate Electronic Design Contest, Shanghai contest area
-* **Scholarship**: The Outstanding Graduate, Outstanding Academic Performance Scholarship twice, School Outstanding Student Cadre
-
-## Book list
-* Linux Device Driver 3rd
-* Data Structure and Algorithm Analysis in C 2nd
-* Code Complete
-* The Art of Unix Programming
-* Beginning Linux Programming 4th
-* C Traps and Pitfalls
-* Embedded Linux Primer -- A Practical Real-World Approach
-* Linux Kernel Development 3rd
-* C Programming FAQs
